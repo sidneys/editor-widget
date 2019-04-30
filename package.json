@@ -21,7 +21,6 @@
     "text-buffer": "13.15.3"
   },
   "devDependencies": {
-    "get-random-port": "0.0.1",
     "tape": "4.10.1"
   },
   "scripts": {
