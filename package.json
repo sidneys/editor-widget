@@ -4,24 +4,24 @@
   "description": "Editor widget used by slap-editor/slap",
   "main": "index.js",
   "dependencies": {
-    "base-widget": "git+https://github.com/cancerberoSgx/base-widget.git",
+    "base-widget": "git+https://github.com/cancerberoSgx/base-widget.git#master",
     "blessed": "0.1.81",
-    "bluebird": "3.5.4",
+    "bluebird": "3.5.5",
     "cheerio": "^0.22.0",
     "copy-paste": "^1.3.0",
     "es6-set": "0.1.5",
-    "highlight.js": "9.15.6",
-    "iconv-lite": "0.4.24",
-    "lodash": "4.17.11",
+    "highlight.js": "9.15.10",
+    "iconv-lite": "0.5.0",
+    "lodash": "4.17.15",
     "lodash.padstart": "^4.6.1",
     "minimist": "1.2.0",
     "rc": "1.2.8",
-    "semver": "6.0.0",
-    "slap-util": "git+https://github.com/cancerberoSgx/slap-util.git",
-    "text-buffer": "13.15.3"
+    "semver": "6.3.0",
+    "slap-util": "git+https://github.com/cancerberoSgx/slap-util.git#master",
+    "text-buffer": "git+https://git@github.com/sidneys/text-buffer.git#master"
   },
   "devDependencies": {
-    "tape": "4.10.1"
+    "tape": "4.11.0"
   },
   "scripts": {
     "test": "spec/index.js"
